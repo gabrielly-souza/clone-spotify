@@ -1,0 +1,291 @@
+    @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Itim&family=Jua&family=Montserrat:wght@600&family=Odibee+Sans&family=Patrick+Hand&family=Playfair+Display+SC:ital,wght@0,400;1,700&family=Poppins&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Itim&family=Jua&family=Montserrat:wght@400;600&family=Odibee+Sans&family=Patrick+Hand&family=Playfair+Display+SC:ital,wght@0,400;1,700&family=Poppins&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Itim&family=Jua&family=Montserrat:wght@400;500;600;700&family=Odibee+Sans&family=Patrick+Hand&family=Playfair+Display+SC:ital,wght@0,400;1,700&family=Poppins&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        font-family: "Montserrat", sans-serif;
+        background: cover;
+        background-size: auto 100%;
+        padding: 0;
+    }
+    
+    header {
+        background: black;
+        padding: 1em;
+        display: absolute;
+        margin: 0;
+    }
+    
+    .logo1 {
+        width: 133px;
+        display: flex;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-weight: bolder;
+        top: 0;
+        width: 87%;
+        margin: 0 93px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: left;
+        color: white;
+        margin: 15px;
+        font-size: 14.5px;
+    }
+    
+    .primeiraparte {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(https://storage.googleapis.com/pr-newsroom-wp/1/2021/04/triangle_burst2-green-nocopy-1440x550.png) center center/cover;
+        background-color: rgba(0, 0, 0, 0.342);
+        background-blend-mode: color;
+        flex-direction: column;
+    }
+    
+    .primeiraparte h2 {
+        font-size: 5rem;
+        color: #09db53;
+    }
+    
+    .primeiraparte p {
+        margin: 15px 0;
+        font-size: 1.1rem;
+        line-height: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .btn {
+        background: #1ed760;
+        color: #ffff;
+        padding: 20px 60px;
+        border: none;
+        border-radius: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+    .spotify-premium {
+        width: 100%;
+        padding: 4.8em;
+        display: container;
+        background-color: #0d72ea;
+        color: #ffff;
+        line-height: 70px;
+        gap: 2rem;
+        height: 23rem;
+    }
+    
+    .spotify-premium h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .spotify-premium h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .spotify-premium p {
+        font-size: 10.5px;
+    }
+    
+    .space {
+        display: inline-block;
+        width: 3px;
+    }
+    
+    .btn1 {
+        background: black;
+        color: white;
+        padding: 18px;
+        border-radius: 50px;
+        width: 140px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+    
+    .btn2 {
+        background: #0d72ea;
+        color: white;
+        padding: 18px;
+        border-radius: 50px;
+        width: 158px;
+        border: 2px solid white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+    
+    .btn1:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+    .btn2:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+    .spotify-premium2 {
+        position: relative;
+        text-align: center;
+        padding: 5rem;
+        line-height: 20px;
+        align-content: center;
+    }
+    
+    .spotify-premium2 h1 {
+        font-size: 35px;
+    }
+    
+    .img-box1,
+    .img-box2,
+    .img-box3,
+    .img-box4 {
+        width: 18%;
+        display: inline-block;
+        padding: 5px;
+        height: 22rem;
+        text-align: center;
+    }
+    
+    .space2 {
+        display: inline-block;
+        width: 50px;
+    }
+    
+    .titulo {
+        font-size: 18px;
+        display: block;
+    }
+    
+    .subtitulo {
+        display: block;
+    }
+    
+    li:hover {
+        color: #1ed760;
+        cursor: pointer;
+    }
+    
+    footer {
+        background: black;
+        padding: 8rem;
+        bottom: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .footer-content {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        color: white;
+        padding: 11.5px;
+        white-space: nowrap;
+    }
+    
+    .footer-menu {
+        margin: 0 60px;
+        list-style: none;
+        font-size: 15px;
+    }
+    
+    .footer-menu3 {
+        margin: 0 60px;
+        list-style: none;
+        align-self: stretch;
+    }
+    
+    .footer-item {
+        margin: 25px 0;
+    }
+    
+    .footer-menu p {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #919496;
+        font-size: 0.8rem;
+    }
+    
+    .logo2 {
+        width: 130px;
+        height: 40px;
+        display: flex;
+    }
+    
+    .footer-info {
+        width: 60%;
+        margin: auto;
+        font-weight: bold;
+        color: #919496;
+        font-size: 0.70rem;
+    }
+    
+    .info-items {
+        list-style: none;
+        left: 100px;
+        position: absolute;
+        display: flex;
+        gap: 2rem;
+        bottom: -1450px;
+    }
+    
+    .info-item li:hover {
+        color: #1ed760;
+        cursor: pointer;
+    }
+    
+    .socials {
+        display: flex;
+    }
+    
+    .socials i {
+        margin: 0 20px;
+        font-size: 1.7rem;
+        transition: all 300ms ease;
+    }
+    
+    .socials i:hover {
+        color: #1ed760;
+        cursor: pointer;
+    }
+    
+    .direitos {
+        color: white;
+        color: #919496;
+        font-size: 0.7rem;
+        bottom: -1450px;
+        position: absolute;
+        right: 70px;
+        text-align: right;
+        line-height: 20px;
+        font-weight: 500;
+    }
